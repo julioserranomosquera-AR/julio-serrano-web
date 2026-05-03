@@ -112,7 +112,37 @@ export default function App() {
           ))}
         </div>
       </section>
+      <section className="resourcesSection" id="recursos">
+        <p className="sectionLabel">Recursos</p>
+        <h2>Material práctico para aprender y aplicar.</h2>
+        <p className="sectionText">
+          Guías, artículos, plantillas y materiales descargables para profesionales
+          y equipos que quieren mejorar su forma de mirar, decidir y ejecutar en operaciones.
+        </p>
 
+        <div className="resourcesGrid">
+          <a className="resourceCard" href="/recursos/guia-kpis-operativos.pdf" target="_blank">
+            <span>📘</span>
+            <h3>Guía de KPIs operativos</h3>
+            <p>Una guía práctica para entender qué medir, cómo medirlo y cómo usar indicadores para decidir mejor.</p>
+            <strong>Descargar PDF →</strong>
+          </a>
+
+          <a className="resourceCard" href="#articulo-caos-operativo">
+            <span>🧭</span>
+            <h3>Del caos operativo al sistema de gestión</h3>
+            <p>Artículo sobre cómo pasar de apagar incendios a construir método, visibilidad y disciplina operativa.</p>
+            <strong>Leer artículo →</strong>
+          </a>
+
+          <a className="resourceCard" href="/recursos/plantilla-diagnostico-operativo.xlsx" target="_blank">
+            <span>📊</span>
+            <h3>Plantilla de diagnóstico operativo</h3>
+            <p>Una herramienta simple para revisar servicio, costos, inventario, procesos, datos y liderazgo.</p>
+            <strong>Descargar Excel →</strong>
+          </a>
+        </div>
+      </section>
       <section className="section twoColumns">
         <div className="wideCard">
           <div className="smallIcon">🧭</div>
