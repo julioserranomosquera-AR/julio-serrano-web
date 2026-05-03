@@ -3,7 +3,7 @@ import {
   ArrowRight,
   BarChart3,
   BrainCircuit,
-  CheckCircle2,
+  CheckCircle,
   Linkedin,
   Mail,
   MapPin,
@@ -79,9 +79,9 @@ export default function App() {
           </div>
 
           <div className="checkList">
-            <p><CheckCircle2 /> Clases y charlas sobre logística, distribución, planificación y mejora de procesos.</p>
-            <p><CheckCircle2 /> Contenido práctico sobre servicio, costo, inventario, productividad y control.</p>
-            <p><CheckCircle2 /> Aplicación simple de datos, tableros, IA y herramientas digitales.</p>
+            <p><checkcircle /> Clases y charlas sobre logística, distribución, planificación y mejora de procesos.</p>
+            <p><checkcircle /> Contenido práctico sobre servicio, costo, inventario, productividad y control.</p>
+            <p><checkcircle /> Aplicación simple de datos, tableros, IA y herramientas digitales.</p>
           </div>
         </div>
       </section>
@@ -120,7 +120,7 @@ export default function App() {
         <div className="topicList">
           {topics.map((item) => (
             <div className="topic" key={item}>
-              <CheckCircle2 />
+              <checkcircle />
               <p>{item}</p>
             </div>
           ))}
