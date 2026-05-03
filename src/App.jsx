@@ -1,37 +1,24 @@
 import React from "react";
-import {
-  ArrowRight,
-  BarChart3,
-  BrainCircuit,
-  CheckCircle,
-  Linkedin,
-  Mail,
-  MapPin,
-  Package,
-  Route,
-  ShieldCheck,
-  Truck,
-} from "lucide-react";
 
 export default function App() {
   const pillars = [
     {
-      icon: <Package />,
+      icon: "📦",
       title: "Supply Chain & Operaciones",
       text: "Formación práctica sobre planificación, inventarios, almacenes, transporte, distribución, servicio y costos.",
     },
     {
-      icon: <BarChart3 />,
+      icon: "📊",
       title: "Gestión con datos",
       text: "KPIs, tableros, análisis operativo y toma de decisiones basada en información clara y confiable.",
     },
     {
-      icon: <BrainCircuit />,
+      icon: "🤖",
       title: "Tecnología aplicada",
       text: "IA, automatización, Excel, Power BI y herramientas digitales aplicadas a procesos reales.",
     },
     {
-      icon: <ShieldCheck />,
+      icon: "🎯",
       title: "Liderazgo operativo",
       text: "Equipos, comunicación, cultura de resultados, disciplina operativa y ejecución bajo presión.",
     },
@@ -48,7 +35,9 @@ export default function App() {
     <main className="page">
       <section className="hero">
         <div className="heroContent">
-          <p className="badge">Charlas · Formación · Supply Chain · Tecnología aplicada</p>
+          <p className="badge">
+            Charlas · Formación · Supply Chain · Tecnología aplicada
+          </p>
 
           <h1>Julio Serrano</h1>
 
@@ -59,7 +48,7 @@ export default function App() {
 
           <div className="buttons">
             <a className="primaryButton" href="mailto:tuemail@ejemplo.com">
-              Conversemos <ArrowRight size={20} />
+              Conversemos →
             </a>
             <a className="secondaryButton" href="#temas">
               Ver temáticas
@@ -69,9 +58,7 @@ export default function App() {
 
         <div className="profileCard">
           <div className="profileHeader">
-            <div className="iconBox">
-              <Truck />
-            </div>
+            <div className="iconBox">🚚</div>
             <div>
               <h2>Formación ejecutiva y operativa</h2>
               <p>Aprender desde problemas reales</p>
@@ -79,9 +66,9 @@ export default function App() {
           </div>
 
           <div className="checkList">
-            <p><checkcircle /> Clases y charlas sobre logística, distribución, planificación y mejora de procesos.</p>
-            <p><checkcircle /> Contenido práctico sobre servicio, costo, inventario, productividad y control.</p>
-            <p><checkcircle /> Aplicación simple de datos, tableros, IA y herramientas digitales.</p>
+            <p>✅ Clases y charlas sobre logística, distribución, planificación y mejora de procesos.</p>
+            <p>✅ Contenido práctico sobre servicio, costo, inventario, productividad y control.</p>
+            <p>✅ Aplicación simple de datos, tableros, IA y herramientas digitales.</p>
           </div>
         </div>
       </section>
@@ -120,8 +107,7 @@ export default function App() {
         <div className="topicList">
           {topics.map((item) => (
             <div className="topic" key={item}>
-              <checkcircle />
-              <p>{item}</p>
+              <p>✅ {item}</p>
             </div>
           ))}
         </div>
@@ -129,7 +115,7 @@ export default function App() {
 
       <section className="section twoColumns">
         <div className="wideCard">
-          <Route />
+          <div className="smallIcon">🧭</div>
           <h2>Formación basada en experiencia real.</h2>
           <p>
             No enseño operaciones desde la teoría pura. Enseño desde la ejecución
@@ -158,16 +144,16 @@ export default function App() {
 
         <div className="buttons">
           <a className="primaryButton" href="mailto:tuemail@ejemplo.com">
-            <Mail size={20} /> Contactar
+            Contactar
           </a>
           <a className="secondaryButton" href="https://www.linkedin.com/" target="_blank">
-            <Linkedin size={20} /> LinkedIn
+            LinkedIn
           </a>
         </div>
       </section>
 
       <footer>
-        <MapPin size={16} /> Argentina · Supply Chain & Operaciones
+        Argentina · Supply Chain & Operaciones
       </footer>
     </main>
   );
