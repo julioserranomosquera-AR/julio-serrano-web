@@ -1,5 +1,6 @@
 import React from "react";
 import { recursos } from "./data/recursos";
+import { articulos } from "./data/articulos";
 export default function App() {
   const pillars = [
     {
@@ -136,6 +137,33 @@ export default function App() {
     </a>
   ))}
 </div>
+      </section>
+            <section className="articlesSection" id="articulos">
+        <p className="sectionLabel">Artículos</p>
+        <h2>Ideas prácticas para mejorar operaciones, liderazgo y gestión.</h2>
+        <p className="sectionText">
+          Reflexiones y herramientas para pasar de la urgencia a la gestión, de los datos a las decisiones
+          y de la experiencia individual al aprendizaje compartido.
+        </p>
+
+        <div className="articlesList">
+          {articulos.map((articulo) => (
+            <article className="articleCard" id={articulo.id} key={articulo.id}>
+              <p className="articleCategory">{articulo.categoria}</p>
+              <h3>{articulo.titulo}</h3>
+              <p className="articleSummary">{articulo.resumen}</p>
+
+              <div className="articleContent">
+                {articulo.contenido.map((bloque) => (
+                  <div key={bloque.subtitulo}>
+                    <h4>{bloque.subtitulo}</h4>
+                    <p>{bloque.texto}</p>
+                  </div>
+                ))}
+              </div>
+            </article>
+          ))}
+        </div>
       </section>
       <section className="section twoColumns">
         <div className="wideCard">
