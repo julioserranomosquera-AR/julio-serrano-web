@@ -13,7 +13,7 @@ export const recursos = [
     titulo: "Del caos operativo al sistema de gestión",
     descripcion:
       "Artículo sobre cómo pasar de apagar incendios a construir método, visibilidad y disciplina operativa.",
-    enlace: "#articulo-caos-operativo",
+enlace: "#caos-operativo",
     boton: "Leer artículo",
     externo: false,
   },
