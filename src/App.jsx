@@ -198,7 +198,7 @@ export default function App() {
           <a className="primaryButton" href="mailto:julioserranomosquera@gmail.com">
             Contactar
           </a>
-          <a className="secondaryButton" href="www.linkedin.com/in/juliocesar-serrano" target="_blank">
+          <a className="secondaryButton" href="https://www.linkedin.com/in/juliocesar-serrano" target="_blank">
             LinkedIn
           </a>
         </div>
