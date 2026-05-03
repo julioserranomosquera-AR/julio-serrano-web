@@ -253,7 +253,50 @@ h3 {
   font-size: 18px;
   color: #334155;
 }
+.resourcesSection {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 88px 24px;
+}
 
+.resourcesGrid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.resourceCard {
+  display: block;
+  padding: 28px;
+  border-radius: 28px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.07);
+  color: white;
+  box-shadow: 0 24px 70px rgba(0,0,0,0.24);
+}
+
+.resourceCard span {
+  display: block;
+  font-size: 34px;
+  margin-bottom: 18px;
+}
+
+.resourceCard h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.resourceCard p {
+  color: #cbd5e1;
+  line-height: 1.7;
+}
+
+.resourceCard strong {
+  display: inline-block;
+  margin-top: 12px;
+  color: #bae6fd;
+}
 .twoColumns {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -321,7 +364,13 @@ footer {
   .grid {
     grid-template-columns: 1fr;
   }
+.grid {
+  grid-template-columns: 1fr;
+}
 
+.resourcesGrid {
+  grid-template-columns: 1fr;
+}
   .contact {
     flex-direction: column;
     align-items: flex-start;
