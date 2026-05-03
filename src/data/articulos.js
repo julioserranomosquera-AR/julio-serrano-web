@@ -52,5 +52,4 @@ export const articulos = [
       texto:
         "La operación no mejora por trabajar más horas ni por depender de personas heroicas. Mejora cuando convierte experiencia en método, datos en decisiones y problemas repetidos en aprendizaje. Ese es el cambio más importante: dejar de vivir reaccionando y empezar a construir una forma de gestionar que no dependa únicamente de la urgencia del día.",
     },
-  ],
-}
+  ];
