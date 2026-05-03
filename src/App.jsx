@@ -48,7 +48,7 @@ export default function App() {
           </p>
 
           <div className="buttons">
-            <a className="primaryButton" href="mailto:tuemail@ejemplo.com">
+            <a className="primaryButton" href="mailto:julioserranomosquera@gmail.com">
               Conversemos →
             </a>
             <a className="secondaryButton" href="#temas">
@@ -195,10 +195,10 @@ export default function App() {
         </div>
 
         <div className="buttons">
-          <a className="primaryButton" href="mailto:tuemail@ejemplo.com">
+          <a className="primaryButton" href="mailto:julioserranomosquera@gmail.com">
             Contactar
           </a>
-          <a className="secondaryButton" href="https://www.linkedin.com/" target="_blank">
+          <a className="secondaryButton" href="www.linkedin.com/in/juliocesar-serrano" target="_blank">
             LinkedIn
           </a>
         </div>
